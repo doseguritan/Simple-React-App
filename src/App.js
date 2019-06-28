@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import InputChange from './pages/InputChange';
 import InputDateFormat from './pages/InputDateFormat';
+import ShowHideComponent from './pages/ShowHideComponent';
 
 class App extends Component {
   render() {
@@ -9,6 +10,7 @@ class App extends Component {
         <h1>Simple React App</h1>
         <InputChange />
         <InputDateFormat />
+        <ShowHideComponent />
       </div>
     );
   }
